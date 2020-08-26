@@ -1,0 +1,39 @@
+Module 1 - Data Models
+    This section explores how we define models in Django and then we build the data models and explore the administration interface for our application. Data models are how Django interacts with the underlying database to store and retrieve data.
+
+    - Understanding Model View Controller (MVC) (Model - data, View - looks, Controller - code behind)
+    - Django Data Models
+        Implements an Object Relational Mapper*
+        Benefits
+            Able to write only Python code (i.e. no explicit SQL)
+            Gain database portability (MySQL, SQLite, PostgreSQL...)
+            Migrations both creat and evolve our databse schema
+            A sweet administrator interface
+            Automatic form generation and validation (later)
+    - Django Migrations
+        python3 manage.py makemigrations (comando para ler o models.py e criar / evoluir os arquivos migrations)
+        python3 manage.py migrate (comando para ler os arquivos migrations e criar / evoluir as tabelas no banco de dados)
+    - Walkthrough: Using a Django Model in the Shell
+    Assingment: Django Tutorial part 2
+    
+
+Module 2 - Django Views
+    Views are the aspect of Django applications that produce the web pages that are shown to our users. Views are one of several core elements of Django applications.
+
+    - URL Routing in Django
+    - Django Views (from django.views import View)
+    - Inside Django Views and HTML Escaping in Django
+    - Using Templates in Django (Template Render Process, Render Data + Template -- Render Engine --> Rendered Output)* (from django.shortcuts import render)
+    - The Django Template Language (DTL) (Substitution, Calling Code, Logic, Blocks)
+    - Inheritance in Django Templates (Template Inheritance Process, Render Data + Base Template + Template -- Render Engine --> Rendered Output)
+    - Reversing Django Views and URLs (from django.urls import reverse, reverse_lazy)
+
+Module 3 - Django Generic Views
+    We review Python Object Orientation and look at the generic views capability within Django. We use generic views by extending Django classes to make a new view class.
+    
+
+
+Module 4 - Forms in HTTP and HTML
+    We cover how GET and POST work, how forms are constructed from HTML, how we protect our applications against Cross-Site Scripting Forgery (CSRF), and how we handle browser refreshes after POST.
+
+    
