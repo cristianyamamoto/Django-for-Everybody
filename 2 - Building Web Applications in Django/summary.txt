@@ -14,7 +14,7 @@ Module 1 - Data Models
         python3 manage.py makemigrations (comando para ler o models.py e criar / evoluir os arquivos migrations)
         python3 manage.py migrate (comando para ler os arquivos migrations e criar / evoluir as tabelas no banco de dados)
     - Walkthrough: Using a Django Model in the Shell
-    Assingment: Django Tutorial part 2
+    Assingment: Django Tutorial part 2 (https://docs.djangoproject.com/en/3.0/intro/tutorial02/)
     
 
 Module 2 - Django Views
@@ -27,13 +27,27 @@ Module 2 - Django Views
     - The Django Template Language (DTL) (Substitution, Calling Code, Logic, Blocks)
     - Inheritance in Django Templates (Template Inheritance Process, Render Data + Base Template + Template -- Render Engine --> Rendered Output)
     - Reversing Django Views and URLs (from django.urls import reverse, reverse_lazy)
+    Assingment: Django Tutorial part 3 (https://docs.djangoproject.com/en/3.0/intro/tutorial03/)
 
 Module 3 - Django Generic Views
     We review Python Object Orientation and look at the generic views capability within Django. We use generic views by extending Django classes to make a new view class.
     
-
+    - Python Objects (Part 1 to 4)
+    - Django Generic Views
+        Generic views allow us to produce lots of similar pages without cutting, pasting and editing boiler plate
+        Quicker development
+        Consistent User Experience
+        Less lines of code means fewer mistakes
 
 Module 4 - Forms in HTTP and HTML
     We cover how GET and POST work, how forms are constructed from HTML, how we protect our applications against Cross-Site Scripting Forgery (CSRF), and how we handle browser refreshes after POST.
 
-    
+    - Forms, GET, POST, and HTTP (POST to create and modify and GET to read and search)
+    - Building HTML Forms (HTML Input types: Text, Password, Radio Button, Check Box, Select / Drop Down, Text area, submit, button, color, date, email, number, url)
+    - Forms and Cross Site Request Forgery (CSRF)
+    - CSRF Support in Django (DTL: {% csrf_token %})
+    - The POST Refresh Pattern (sending same post again after hitting refresh button)
+    - Implementing POST Redirect in Django (POST-REDIRECT-GET-Refresh)
+    Assingment: Django Tutorial part 4 (https://docs.djangoproject.com/en/3.0/intro/tutorial04/)
+
+    cristianyamamoto.pythonanywhere.com/polls
