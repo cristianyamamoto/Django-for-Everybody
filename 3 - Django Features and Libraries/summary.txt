@@ -1,0 +1,31 @@
+In this course, you will learn how to build Django-based web applications suitable for use by end users.  You will learn about cookies, sessions, and authentication processes in Django.  You will build navigation into your applications and explore ways to easily improve the look and feel of Django applications.  You will begin to develop a simple application to support a classified ads website that will walk you through many of the issues and techniques that you encounter in website development.  You will also learn how to move an application from development to production.
+
+
+
+Module 1 - Cookies and Sessions
+    We explore how cookies work in the browser and how to set and read cookies in Django. We then explore how cookies are used to support sessions in Django and how we use sessions in Django. 
+
+    - Cookies and Sessions
+    - Django Sessions
+    Assignment: Cookies! (Find cookies on DevTools browser)
+    Assignment: Hello World! (https://www.dj4e.com/assn/dj4e_hello.md)
+
+
+Module 2 - Users and Authentication
+    Django has a built in capability to create and make use of user accounts. The built-in authentication and authorization system is quite robust. More advanced applications can replace the user model with their own model as long as thy meet the requirements of the rest of Django with respect to the authentication and authorization system.
+    
+
+Module 3 - Django Forms
+    Forms are the way that web applications present users with pages that areas to be filled in and sent to the server as data. Django has extensive support to simplify how we write code to interact with HTML forms.
+    
+
+Module 4 - One to Many Data Models
+    As we design our data models, it is important to follow normal-form and not replicate string data. We do this by using multiple tables and making link between rows of two tables. The one-to-many pattern is one technique to replace data replication using links between rows in different tables.
+
+
+Module 5 - Owned Rows
+    This module covers the important technique of marking rows in a data model as belonging to a particular user. With this information we can decide who can edit or view particular rows. We look at how we can use Django with object-oriented Python to build a reusable "owned rows" feature.
+
+
+Module 6 - Many-to-Many Models
+    The more advanced data modeling approach to remove replication of string data is the Many-To-Many data model. Sometimes a one-to-many model is not flexible enough to represent structures like course rosters. A Many-to-many model in essense models two on-to-many relationships.
