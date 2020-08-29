@@ -13,11 +13,18 @@ Module 1 - Cookies and Sessions
 
 Module 2 - Users and Authentication
     Django has a built in capability to create and make use of user accounts. The built-in authentication and authorization system is quite robust. More advanced applications can replace the user model with their own model as long as thy meet the requirements of the rest of Django with respect to the authentication and authorization system.
+
+    - Creating and Managing Users in Django (python manage.py createsuperuser)
+    - Login and Logout URLs in Django
+    - Using Django Login in Views (LoginRequiredMixin class)
     
 
 Module 3 - Django Forms
     Forms are the way that web applications present users with pages that areas to be filled in and sent to the server as data. Django has extensive support to simplify how we write code to interact with HTML forms.
-    
+
+    - Using Django Forms Capabilities (explaining forms.py)
+    - Data Validation with Django Forms
+    Assignment: Autos CRUD (https://www.dj4e.com/assn/dj4e_autos.md)
 
 Module 4 - One to Many Data Models
     As we design our data models, it is important to follow normal-form and not replicate string data. We do this by using multiple tables and making link between rows of two tables. The one-to-many pattern is one technique to replace data replication using links between rows in different tables.
@@ -29,3 +36,6 @@ Module 5 - Owned Rows
 
 Module 6 - Many-to-Many Models
     The more advanced data modeling approach to remove replication of string data is the Many-To-Many data model. Sometimes a one-to-many model is not flexible enough to represent structures like course rosters. A Many-to-many model in essense models two on-to-many relationships.
+
+
+    Link used for submiting assignments: http://cristianyamamoto.pythonanywhere.com/
