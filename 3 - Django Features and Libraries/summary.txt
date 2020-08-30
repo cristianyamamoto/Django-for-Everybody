@@ -29,13 +29,31 @@ Module 3 - Django Forms
 Module 4 - One to Many Data Models
     As we design our data models, it is important to follow normal-form and not replicate string data. We do this by using multiple tables and making link between rows of two tables. The one-to-many pattern is one technique to replace data replication using links between rows in different tables.
 
+    - One-to-Many Models Overview
+    - Removing Replication in One-to-Many Models (creating new tables to remove replication)
+    - Storing Primary and Foreign Keys in a Database 
+    - Representing One-To-Many Models in Django (each model on Django represents a table on the Database)
+    - Using the Django Shell to Explore One-to-Many Models (python manage.py shell)
+    Assignment: Cats CRUD (https://www.dj4e.com/tools/crud/02spec.php?assn=02cats.php&PHPSESSID=616d86aae010b538d38650ea2f0f2932)
+
 
 Module 5 - Owned Rows
     This module covers the important technique of marking rows in a data model as belonging to a particular user. With this information we can decide who can edit or view particular rows. We look at how we can use Django with object-oriented Python to build a reusable "owned rows" feature.
 
+    - Owned Rows in Django - Overview (OwnerListView class)
+    - Owned Rows in Django - Generic Views Review
+    - Owned Rows in Django - owner.py
+    - Walkthrough: DJ4E Crispy Forms (crispy) Sample Code
+    - Walkthrough: DJ4E My Articles (myarts) Sample Code
+    - Walkthrough: DJ4E Bootstrap Menu (menu) Sample Code
+    Assignment: Building a Classified Ad Web Site (https://www.dj4e.com/assn/dj4e_ads1.md)
+
 
 Module 6 - Many-to-Many Models
     The more advanced data modeling approach to remove replication of string data is the Many-To-Many data model. Sometimes a one-to-many model is not flexible enough to represent structures like course rosters. A Many-to-many model in essense models two on-to-many relationships.
+
+    - Many-to-Many Overview
+
 
 
     Link used for submiting assignments: http://cristianyamamoto.pythonanywhere.com/
