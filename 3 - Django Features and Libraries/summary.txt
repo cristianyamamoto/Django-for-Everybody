@@ -47,6 +47,7 @@ Module 5 - Owned Rows
     - Walkthrough: DJ4E My Articles (myarts) Sample Code
     - Walkthrough: DJ4E Bootstrap Menu (menu) Sample Code
     Assignment: Building a Classified Ad Web Site (https://www.dj4e.com/assn/dj4e_ads1.md)
+    grep -ri myarts *
 
 
 Module 6 - Many-to-Many Models
