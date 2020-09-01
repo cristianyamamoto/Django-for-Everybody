@@ -1,0 +1,34 @@
+In this final course, we'll look at the JavaScript language and how it supports the Object-Oriented pattern, with a focus on the unique aspects of JavaScript's approach to OO. We'll provide an introduction to the jQuery library, which is widely used for in-browser manipulation of the Document Object Model (DOM) and event handling. You'll also learn about JavaScript Object Notation (JSON), which is commonly used as a syntax to exchange data between code running on the server (i.e., in Django) and code running in the browser (JavaScript/jQuery). You will continue to develop your classified ads application, adding features that make use of JavaScript, JQuery, and JSON.  This course assumes you have completed the first three courses in the specialization.
+
+
+Module 1 - JavaScript
+    As we begin to add interactive elements to our web pages, we need to learn JavaScript. For students with a JavaScript background this will be a bit of review as we learn JavaScript from a Django perspective.
+
+    - JavaScript Overview and History (1995)
+    - JavaScript in the Browser (inline, inside HTML tag, different file)
+    - The JavaScript Language (7 primitive types: Null, Undefined, Number, String, BigInt, Boolean, Symbol / and object)
+    - JavaScript Functions and Arrays
+
+
+Module 2 - Object Oriented JavaScript
+    The Object-Oriented approach in JavaScript is different from Object Orientation in Python in some important ways. So we look at the unique features of the OO pattern in JavaScript. The high level concepts are the same between Python and JavaScript but the implementation details are different in important and subtle ways.
+
+    - JavaScript Object Oriented Concepts (First Class Functions)
+    - JavaScript Object Oriented Classes
+    - Walkthrough: DJ4E Pictures (pics) Sample Code
+    - Walkthrough: DJ4E Forums (forums) Sample Code
+    Assignment: Classified Ads #2 - Pictures and Comments (https://www.dj4e.com/assn/dj4e_ads2.md)
+    grep -ri pics *
+
+
+Module 3 - jQuery
+    There are many JavaScript libraries to make it easier to do common tasks in the browser. jQuery is one of the more popular libraries that are available and we use it in this course because it is so common. But concepts in this section apply to "vanilla JavaScript" or other JavaScript frameworks.
+
+
+Module 4 - JSON / AJAX
+    JSON and AJAX allow web pages to add interactivity and interact with the back-end without sending entire web pages back and forth to the server.
+
+
+Module 5 - Ads #4 - Search
+    In this module we extend our application to add search to our classified ads application.
+
