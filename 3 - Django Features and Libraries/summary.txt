@@ -1,7 +1,6 @@
 In this course, you will learn how to build Django-based web applications suitable for use by end users.  You will learn about cookies, sessions, and authentication processes in Django.  You will build navigation into your applications and explore ways to easily improve the look and feel of Django applications.  You will begin to develop a simple application to support a classified ads website that will walk you through many of the issues and techniques that you encounter in website development.  You will also learn how to move an application from development to production.
 
 
-
 Module 1 - Cookies and Sessions
     We explore how cookies work in the browser and how to set and read cookies in Django. We then explore how cookies are used to support sessions in Django and how we use sessions in Django. 
 
@@ -25,6 +24,7 @@ Module 3 - Django Forms
     - Using Django Forms Capabilities (explaining forms.py)
     - Data Validation with Django Forms
     Assignment: Autos CRUD (https://www.dj4e.com/assn/dj4e_autos.md)
+
 
 Module 4 - One to Many Data Models
     As we design our data models, it is important to follow normal-form and not replicate string data. We do this by using multiple tables and making link between rows of two tables. The one-to-many pattern is one technique to replace data replication using links between rows in different tables.
@@ -53,7 +53,9 @@ Module 6 - Many-to-Many Models
     The more advanced data modeling approach to remove replication of string data is the Many-To-Many data model. Sometimes a one-to-many model is not flexible enough to represent structures like course rosters. A Many-to-many model in essense models two on-to-many relationships.
 
     - Many-to-Many Overview
+    - A Simple Many-To-Many Example in Django (Books and Authors)
+    - Many-To-Many Data Models for Courses and Membership (Person and Course)
+    - Building a Django Batch Script to Load Data from CSV (getting data from CSV file and saving it on database)
+    Assignment: Many-to-Many Data Model (https://www.dj4e.com/assn/dj4e_load.md)
 
-
-
-    Link used for submiting assignments: http://cristianyamamoto.pythonanywhere.com/
+Link used for submiting assignments: http://cristianyamamoto.pythonanywhere.com/
