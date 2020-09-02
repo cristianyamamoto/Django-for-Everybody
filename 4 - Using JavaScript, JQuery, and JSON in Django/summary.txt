@@ -24,9 +24,19 @@ Module 2 - Object Oriented JavaScript
 Module 3 - jQuery
     There are many JavaScript libraries to make it easier to do common tasks in the browser. jQuery is one of the more popular libraries that are available and we use it in this course because it is so common. But concepts in this section apply to "vanilla JavaScript" or other JavaScript frameworks.
 
+    - jQuery and the Document Object Model (DOM used to manipulate current screen)
+    - Walkthrough: DJ4E jQuery DOM Sample Code
+    - Using jQuery ($)
+    - Walkthrough: DJ4E jQuery Setup Sample Code
+    - Walkthrough: DJ4E jQuery Events Sample Code
+    - Walkthrough: DJ4E jQuery DOM Modification
+
 
 Module 4 - JSON / AJAX
     JSON and AJAX allow web pages to add interactivity and interact with the back-end without sending entire web pages back and forth to the server.
+
+    - JSON/AJAX Overview
+
 
 
 Module 5 - Ads #4 - Search
