@@ -35,10 +35,18 @@ Module 3 - jQuery
 Module 4 - JSON / AJAX
     JSON and AJAX allow web pages to add interactivity and interact with the back-end without sending entire web pages back and forth to the server.
 
-    - JSON/AJAX Overview
-
-
+    - JSON/AJAX Overview (JavaScript Object Notation / Asynchronous JavaScript And XML)
+    - Walkthrough: DJ4E JSON Sample Code 
+    - Building an AJAX Chat with Django
+    - Walkthrough: DJ4E JSON (chat) Sample Code
+    - Walkthrough: DJ4E Favicon Sample Code
+    - Walkthrough: DJ4E Social Login Code
+    - Walkthrough: DJ4E Favorites (favs) Sample Code
+    Assignment: Ad List #3 (https://www.dj4e.com/assn/dj4e_ads3.md)
 
 Module 5 - Ads #4 - Search
     In this module we extend our application to add search to our classified ads application.
 
+    - Walkthrough: DJ4E Search (well) Sample Code
+    - Walkthrough: DJ4E My Articles (myarts) Sample Code (same as 3rd course)
+    Assignment: Classified Ads #4 (https://www.dj4e.com/assn/dj4e_ads4.md)
